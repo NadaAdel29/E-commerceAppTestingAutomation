@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="617719b3-06d9-4761-8b76-c81eb6da4fe6" name="Changes" comment="..">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/FilterbyColor.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/Search.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/SwitchCurrencies.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/FilterbyColorPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SearchPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SwitchCurrenciesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/FilterbyColorDifinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/SearchDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/SwitchCurrenciesDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/DifferentCategoery.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/DifferentCategoery.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DifferentCategoeryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DifferentCategoeryPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/DifferentCategoeryDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/DifferentCategoeryDefinition.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +45,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "last_opened_file_path": "C:/Users/Dell/IdeaProjects/E-commerceAppTestingAutomation/src/test/java",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
@@ -66,7 +61,28 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: SwitchCurrencies">
+  <component name="RunManager" selected="Cucumber Java.Feature: DifferentCategoery">
+    <configuration name="Feature: DifferentCategoery" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/DifferentCategoery.feature" />
+      <option name="GLUE" value="StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="E-commerceAppTestingAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <shortenClasspath name="NONE" />
+      <option name="SUGGESTED_NAME" value="Feature: DifferentCategoery" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="MakeProject" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Feature: FilterbyColor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/FilterbyColor.feature" />
@@ -150,6 +166,7 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Cucumber Java.Feature: DifferentCategoery" />
       <item itemvalue="Cucumber Java.Feature: FilterbyColor" />
       <item itemvalue="Cucumber Java.Feature: SwitchCurrencies" />
       <item itemvalue="Cucumber Java.Feature: Login" />
@@ -157,6 +174,7 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: DifferentCategoery" />
         <item itemvalue="Cucumber Java.Feature: SwitchCurrencies" />
         <item itemvalue="Cucumber Java.Feature: FilterbyColor" />
         <item itemvalue="Cucumber Java.Feature: Search" />
@@ -180,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673996336040</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="..">
+      <created>1674082591485</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674082591485</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
