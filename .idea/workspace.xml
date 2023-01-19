@@ -5,23 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="617719b3-06d9-4761-8b76-c81eb6da4fe6" name="Changes" comment="..">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddCompareList.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddProductCart.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddProductWishlist.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/DifferentTags.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/features/SuccessOrder.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/AddCompareListPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/AddProductCartPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/AddProductWishlistPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/DifferentTagsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SuccessOrderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/AddCompareListDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/AddProductCartDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/AddProductWishlistDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/DifferentTagsDefinition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/SuccessOrderDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/ResetPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/ResetPassword.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +44,11 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Dell/IdeaProjects/E-commerceAppTestingAutomation/src/test/java",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+    "last_opened_file_path": "C:/Users/Dell/Desktop/ProjectSales/Project",
+    "project.structure.last.edited": "Global Libraries",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.15408319",
+    "settings.editor.selected.configurable": "MavenSettings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -74,7 +62,7 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: Registration">
+  <component name="RunManager" selected="Cucumber Java.Feature: AddCompareList">
     <configuration name="Feature: AddCompareList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/AddCompareList.feature" />
@@ -180,11 +168,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Cucumber Java.Feature: AddCompareList" />
         <item itemvalue="Cucumber Java.Feature: Registration" />
         <item itemvalue="JUnit.TestRunner" />
         <item itemvalue="Cucumber Java.Scenario: Order" />
         <item itemvalue="Cucumber Java.Feature: SuccessOrder" />
-        <item itemvalue="Cucumber Java.Feature: AddCompareList" />
       </list>
     </recent_temporary>
   </component>
@@ -218,11 +206,22 @@
       <option name="project" value="LOCAL" />
       <updated>1674084611250</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="..">
+      <created>1674091444731</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674091444731</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value=".." />
     <option name="LAST_COMMIT_MESSAGE" value=".." />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
