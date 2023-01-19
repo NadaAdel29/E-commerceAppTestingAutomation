@@ -1,3 +1,4 @@
+@regression
 @Reset
 
 Feature: user should be able to reset his password

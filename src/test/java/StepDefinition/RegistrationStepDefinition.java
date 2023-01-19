@@ -39,7 +39,7 @@ public class RegistrationStepDefinition {
     @When("user enter valid data")
     public void ValidData() throws InterruptedException {
         Thread.sleep(2000);
-        Register.RegisterSteps(driver, "test", "test2", "test902@gmail.com", "abcdef", "abcdef");
+        Register.RegisterSteps(driver, "test", "test2", "test9068@gmail.com", "abcdef", "abcdef");
         Thread.sleep(2000);
     }
 
@@ -61,7 +61,7 @@ public class RegistrationStepDefinition {
 
     @And("user go to home page")
     public void home_page() throws InterruptedException {
-        Assert.assertEquals("https://demo.nopcommerce.com/registerresult/1?returnUrl=/",driver.getCurrentUrl());
+        Assert.assertEquals("https://demo.nopcommerce.com/registerresult/1?returnUrl=/htc-one-m8-android-l-50-lollipop",driver.getCurrentUrl());
         System.out.println(" current url"+driver.getCurrentUrl());
         Thread.sleep(2000);
     }

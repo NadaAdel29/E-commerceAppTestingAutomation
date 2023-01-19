@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="617719b3-06d9-4761-8b76-c81eb6da4fe6" name="Changes" comment="..">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddCompareList.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddProductCart.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/AddProductWishlist.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/DifferentTags.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/features/SuccessOrder.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/AddCompareListPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/AddProductCartPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/AddProductWishlistPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/DifferentTagsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/SuccessOrderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/AddCompareListDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/AddProductCartDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/AddProductWishlistDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/DifferentTagsDefinition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/SuccessOrderDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/features/DifferentCategoery.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/DifferentCategoery.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DifferentCategoeryPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DifferentCategoeryPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinition/DifferentCategoeryDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinition/DifferentCategoeryDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/features/ResetPassword.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/features/ResetPassword.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,16 +74,16 @@
       <recent name="Pages" />
     </key>
   </component>
-  <component name="RunManager" selected="Cucumber Java.Feature: DifferentCategoery">
-    <configuration name="Feature: DifferentCategoery" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Cucumber Java.Feature: Registration">
+    <configuration name="Feature: AddCompareList" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/DifferentCategoery.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/AddCompareList.feature" />
       <option name="GLUE" value="StepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppTestingAutomation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: DifferentCategoery" />
+      <option name="SUGGESTED_NAME" value="Feature: AddCompareList" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -83,15 +96,34 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: FilterbyColor" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Registration" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/FilterbyColor.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Registration.feature" />
+      <option name="GLUE" value="StepDefinition" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="E-commerceAppTestingAutomation" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
+      <option name="SUGGESTED_NAME" value="Feature: Registration" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: SuccessOrder" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/SuccessOrder.feature" />
       <option name="GLUE" value="StepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppTestingAutomation" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
       <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: FilterbyColor" />
+      <option name="SUGGESTED_NAME" value="Feature: SuccessOrder" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -104,14 +136,15 @@
         <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: Order" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Login.feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/SuccessOrder.feature" />
       <option name="GLUE" value="StepDefinition" />
       <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="E-commerceAppTestingAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <option name="SUGGESTED_NAME" value="Feature: Login" />
+      <option name="NAME_FILTER" value="^Order$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Order$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Order" />
       <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -123,62 +156,35 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Feature: Search" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/Search.feature" />
-      <option name="GLUE" value="StepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+    <configuration name="TestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="E-commerceAppTestingAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: Search" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="PATTERN" value="Runner.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Runner" />
+      <option name="MAIN_CLASS_NAME" value="Runner.TestRunner" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Feature: SwitchCurrencies" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="5" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/main/resources/features/SwitchCurrencies.feature" />
-      <option name="GLUE" value="StepDefinition" />
-      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
-      <module name="E-commerceAppTestingAutomation" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter" />
-      <shortenClasspath name="NONE" />
-      <option name="SUGGESTED_NAME" value="Feature: SwitchCurrencies" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="io.cucumber.core.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="MakeProject" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Cucumber Java.Feature: DifferentCategoery" />
-      <item itemvalue="Cucumber Java.Feature: FilterbyColor" />
-      <item itemvalue="Cucumber Java.Feature: SwitchCurrencies" />
-      <item itemvalue="Cucumber Java.Feature: Login" />
-      <item itemvalue="Cucumber Java.Feature: Search" />
+      <item itemvalue="Cucumber Java.Feature: Registration" />
+      <item itemvalue="Cucumber Java.Scenario: Order" />
+      <item itemvalue="Cucumber Java.Feature: SuccessOrder" />
+      <item itemvalue="Cucumber Java.Feature: AddCompareList" />
+      <item itemvalue="JUnit.TestRunner" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber Java.Feature: DifferentCategoery" />
-        <item itemvalue="Cucumber Java.Feature: SwitchCurrencies" />
-        <item itemvalue="Cucumber Java.Feature: FilterbyColor" />
-        <item itemvalue="Cucumber Java.Feature: Search" />
-        <item itemvalue="Cucumber Java.Feature: Login" />
+        <item itemvalue="Cucumber Java.Feature: Registration" />
+        <item itemvalue="JUnit.TestRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Order" />
+        <item itemvalue="Cucumber Java.Feature: SuccessOrder" />
+        <item itemvalue="Cucumber Java.Feature: AddCompareList" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +211,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674082591485</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="..">
+      <created>1674084611250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674084611250</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
