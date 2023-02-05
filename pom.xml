@@ -43,6 +43,7 @@
 
     <build>
         <plugins>
+
             <plugin>
                 <!-- https://maven.apache.org/surefire/maven-surefire-plugin/plugins.html -->
                 <groupId>org.apache.maven.plugins</groupId>
